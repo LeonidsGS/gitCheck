@@ -1,0 +1,28 @@
+git init
+//локальные данные
+git config --local user.name "Leo"
+git config --local user.email mr.leonid53@gmail.com
+
+//глобальные данные
+git config --global user.name "Leo"
+git config --global user.email mr.leonid53@gmail.com
+
+//отслеживаемые файлы
+git status
+
+//добавить файлы в отслеживаемые
+git add -A
+
+//сделать контрольную точку
+git add -A
+git commit -a -m"first commit"
+
+//посмотреть логи контрольных точек
+git log
+
+//берем из GitHub линк после создания репозитория
+git remote add origin https://github.com/LeonidsGS/project.git
+//отправка файлов на GitHub
+git push -u origin main
+//последующая отправка файлов
+git push
